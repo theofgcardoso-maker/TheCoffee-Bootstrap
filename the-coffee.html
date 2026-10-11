@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Coffee</title>
+    <link rel="icon" type="image/png" href="./caneca.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP&family=Story+Script&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+</head>
+
+<body>
+    <header>
+        <nav class="nav-bar">
+
+            <div class="container menu-conteudo">
+                <div class="idiomas">
+                    <span>PT</span>
+                    <span>EN</span>
+                    <span>ES</span>
+                    <span>FR</span>
+                    <span>JP</span>
+                    <span>KR</span>
+                </div>
+
+                <div class="logo-central">
+                    <a class="navbar-brand" href="#inicio">the coffee. ザ・コーヒー</a>
+                </div>
+
+                <button class="menu-toggle" id="menuToggle" aria-label="abrir menu" aria-expanded="false">
+                    <span></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+    <nav class="menu-expansivel" id="menuExpansivel">
+        <a href="#inicio">Home</a>
+        <a href="#grãos">Nossos grãos</a>
+        <a href="#lojas">Nossas lojas</a>
+        <a href="#contato">Fale conosco </a>
+    </nav>
+
+    <main>
+        <section class="imagem-principal" id="inicio">
+            <img src="./the-coffee.png" alt="Fachada de uma cafeteria The Coffee">
+
+        </section>
+
+
+        <section class="apresentacao">
+            <button class="botao-expansao" id="botaoExpansao" aria-label="Mostrar texto"
+                aria-expanded="false">+</button>
+
+            <p>Café é incrível. Nós amamos. Mas sabor e aroma são apenas uma parte de toda a experiência. Sabíamos que
+                algo estava faltando. Alguma coisa que combinasse com pureza que o café representa. Achamos, no outro
+                lado do mundo. Japão. Simplicidade, minimalismo e a constante busca pela perfeição. Inspirados por tudo
+                que vimos por lá, The Coffee foi criado. O melhor do café brasileiro combinado com a pureza e o
+                perfeccionismo do Japão. Simple.</p>
+        </section>
+
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+
+            <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                    <img src="./imagens-carrossel/matcha-blueberry.png" class="d-block w-100"
+                        alt="Iced Blueberry Matcha">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="./imagens-carrossel/tiramisu-iced-latte.png" class="d-block w-100"
+                        alt="Tiramisu Iced Latte">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="./imagens-carrossel/morning-matcha.png" class="d-block w-100" alt="Morning Matcha Latte">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="./imagens-carrossel/tiramisu-latte.png" class="d-block w-100" alt="Tiramisu Latte">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="./imagens-carrossel/fresh-soda.png" class="d-block w-100" alt="Fresh Soda">
+                </div>
+
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Próximo</span>
+            </button>
+
+        </div>
+        <section class="secao-cardapio">
+            <button class="botao-cardapio" href="cardapio.html">conheça nosso cardápio</button>
+        </section>
+
+        <section class="secao-lojas">
+
+            <div class="carrossel">
+                <button class="seta-carrossel seta-anterior" aria-label="Imagens anteriores">
+                    &#10094;
+                </button>
+
+                <div class="faixa-carrossel">
+                    <img src="./imagens-cards/matchaandstrawberry.png" alt="Matcha com morango">
+                    <img src="./imagens-cards/croissant.png" alt="Croissant">
+                    <img src="./imagens-cards/icedtogo.png" alt="Café gelado">
+                    <img src="./imagens-cards/cookies.png" alt="Cookies">
+                    <img src="./imagens-cards/allwhite.png" alt="Bebida da linha All White">
+                    <img src="./imagens-cards/ontable.png" alt="Café servido à mesa">
+                    <img src="./imagens-cards/bigcupcoffee.png" alt="Copo grande de café">
+                    <img src="./imagens-cards/matchamaker.png" alt="Matcha">
+                    <img src="./imagens-cards/lemoncake.png" alt="Bolo de limão">
+                    <img src="./imagens-cards/coffee-and-milk.png" alt="Café com leite">
+                    <img src="./imagens-cards/sidewalk.png" alt="Fachada da cafeteria">
+                    <img src="./imagens-cards/infrontofstore.png" alt="Cafeteria vista da calçada">
+                </div>
+
+                <button class="seta-carrossel seta-proxima" aria-label="Próximas imagens">
+                    &#10095;
+                </button>
+            </div>
+
+        </section>
+    </main>
+    <br></br>
+    <section class="secao-torrefacao">
+        <div class="card-torrefacao">
+
+            <div class="imagem-torrefacao">
+                <img src="./we-are-roasters.jpg" alt="Torrefação de cafés">
+                <h1>We are roasters</h1>
+            </div>
+
+            <div class="texto-torrefacao">
+                <h2>Torrefação própria de cafés</h2>
+                <p class="torrefacao-graos">A seleção e a torrefação dos nossos grãos acontecem na cidade de Curitiba,
+                    Brasil, por meio de um criterioso trabalho do nosso Mestre de Torras. Esse profissional, após
+                    diversas pesquisas e testes, encontrou o perfil (ou curva) de torra ideal, responsável por definir o
+                    tempo e a temperatura as quais ficarão expostas os grãos na Torrefadora. Com ela, conseguimos
+                    valorizar o café e ressaltar as suas características da melhor maneira. E, assim, nossos clientes
+                    podem desfrutar o melhor que podemos oferecer.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-redes">
+            <h3>Siga a The Coffee</h3>
+
+            <div class="icones-redes">
+                <a href="https://www.instagram.com/thecoffee.jp/" target="_blank" rel="noopener noreferrer"
+                    aria-label="Instagram">
+                    <i class="bi bi-instagram"></i>
+                </a>
+
+                <a href="https://www.linkedin.com/company/the-coffee-jp/" target="_blank" rel="noopener noreferrer"
+                    aria-label="LinkedIn">
+                    <i class="bi bi-linkedin"></i>
+                </a>
+
+                <a href="https://open.spotify.com/playlist/0m5gWkEz9vqE5vvg9XLULi?si=b6f6288dc8064ca8" target="_blank"
+                    rel="noopener noreferrer" aria-label="Spotify">
+                    <i class="bi bi-spotify"></i>
+                </a>
+
+                <a href="https://www.youtube.com/@thecoffeejp" target="_blank" rel="noopener noreferrer"
+                    aria-label="YouTube">
+                    <i class="bi bi-youtube"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+
+        const botao = document.getElementById("botaoExpansao");
+        const texto = document.querySelector(".apresentacao p");
+
+        botao.addEventListener("click", function () {
+            const aberto = botao.getAttribute("aria-expanded") === "true";
+
+            botao.textContent = aberto ? "+" : "×";
+            botao.setAttribute("aria-expanded", !aberto);
+            botao.setAttribute(
+                "aria-label",
+                aberto ? "Mostrar texto" : "Esconder texto"
+            );
+
+            if (aberto) {
+                texto.style.maxHeight = "0";
+                texto.style.opacity = "0";
+            } else {
+                texto.style.maxHeight = texto.scrollHeight + "px";
+                texto.style.opacity = "1";
+
+                setTimeout(function () {
+                    texto.scrollIntoView({
+                        behavior: "smooth",
+                        block: "center"
+                    });
+                }, 150);
+            }
+        });
+
+
+        const menuToggle = document.getElementById("menuToggle");
+        const menuExpansivel = document.getElementById("menuExpansivel");
+
+        menuToggle.addEventListener("click", function () {
+            const aberto = menuToggle.getAttribute("aria-expanded") === "true";
+
+            menuToggle.setAttribute("aria-expanded", !aberto);
+            menuToggle.setAttribute(
+                "aria-label",
+                aberto ? "Abrir menu" : "Fechar menu"
+            );
+
+            menuExpansivel.classList.toggle("aberto", !aberto);
+            menuToggle.classList.toggle("menu-aberto", !aberto);
+        });
+
+        const faixaCarrossel = document.querySelector(".faixa-carrossel");
+        const imagensCarrossel = document.querySelectorAll(".faixa-carrossel img");
+        const setaAnterior = document.querySelector(".seta-anterior");
+        const setaProxima = document.querySelector(".seta-proxima");
+
+        let indiceCarrossel = 0;
+
+        function moverCarrossel() {
+            const larguraImagem = imagensCarrossel[0].getBoundingClientRect().width;
+            const estilosFaixa = getComputedStyle(faixaCarrossel);
+            const gap = parseFloat(estilosFaixa.gap) || 0;
+
+            const imagensVisiveis = 4;
+            const maximoIndice = imagensCarrossel.length - imagensVisiveis;
+
+            indiceCarrossel = Math.max(0, Math.min(indiceCarrossel, maximoIndice));
+
+            faixaCarrossel.style.transform =
+                `translateX(-${indiceCarrossel * (larguraImagem + gap)}px)`;
+
+        }
+
+        setaProxima.addEventListener("click", function () {
+            indiceCarrossel++;
+            moverCarrossel();
+        });
+
+        setaAnterior.addEventListener("click", function () {
+            indiceCarrossel--;
+            moverCarrossel();
+        });
+
+        window.addEventListener("resize", moverCarrossel);
+
+    </script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
